@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/game.h
+
+/home/shane/repos/Elementrix/src/game.cpp
+game.h
+/home/shane/repos/Elementrix/src/game.h
+iostream
+-
+
+/home/shane/repos/Elementrix/src/main.cpp
+iostream
+-
+
