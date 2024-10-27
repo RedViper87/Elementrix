@@ -4,7 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/shane/repos/Elementrix/src/game.cpp" "/home/shane/repos/Elementrix/build/CMakeFiles/Elementrix.dir/src/game.cpp.o"
+  "/home/shane/repos/Elementrix/src/Game.cpp" "/home/shane/repos/Elementrix/build/CMakeFiles/Elementrix.dir/src/Game.cpp.o"
+  "/home/shane/repos/Elementrix/src/Player.cpp" "/home/shane/repos/Elementrix/build/CMakeFiles/Elementrix.dir/src/Player.cpp.o"
   "/home/shane/repos/Elementrix/src/main.cpp" "/home/shane/repos/Elementrix/build/CMakeFiles/Elementrix.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

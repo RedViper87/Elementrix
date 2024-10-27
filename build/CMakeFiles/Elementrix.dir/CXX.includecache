@@ -6,15 +6,27 @@
 
 #IncludeRegexTransform: 
 
-../include/game.h
+../include/Game.h
+memory
+-
+Player.h
+../include/Player.h
 
-/home/shane/repos/Elementrix/src/game.cpp
-game.h
-/home/shane/repos/Elementrix/src/game.h
+../include/Player.h
+
+/home/shane/repos/Elementrix/src/Game.cpp
+Game.h
+/home/shane/repos/Elementrix/src/Game.h
+iostream
+-
+
+/home/shane/repos/Elementrix/src/Player.cpp
+Player.h
+/home/shane/repos/Elementrix/src/Player.h
 iostream
 -
 
 /home/shane/repos/Elementrix/src/main.cpp
-iostream
--
+Game.h
+/home/shane/repos/Elementrix/src/Game.h
 

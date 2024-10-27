@@ -1,1 +1,1 @@
-/usr/bin/c++     CMakeFiles/Elementrix.dir/src/game.cpp.o CMakeFiles/Elementrix.dir/src/main.cpp.o  -o Elementrix 
+/usr/bin/g++  -g   CMakeFiles/Elementrix.dir/src/Game.cpp.o CMakeFiles/Elementrix.dir/src/Player.cpp.o CMakeFiles/Elementrix.dir/src/main.cpp.o  -o Elementrix 

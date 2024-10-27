@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/shane/repos/Elementrix/build",
+  "command": "/usr/bin/g++   -I/home/shane/repos/Elementrix/include  -g   -std=gnu++17 -o CMakeFiles/Elementrix.dir/src/Game.cpp.o -c /home/shane/repos/Elementrix/src/Game.cpp",
+  "file": "/home/shane/repos/Elementrix/src/Game.cpp"
+},
+{
+  "directory": "/home/shane/repos/Elementrix/build",
+  "command": "/usr/bin/g++   -I/home/shane/repos/Elementrix/include  -g   -std=gnu++17 -o CMakeFiles/Elementrix.dir/src/Player.cpp.o -c /home/shane/repos/Elementrix/src/Player.cpp",
+  "file": "/home/shane/repos/Elementrix/src/Player.cpp"
+},
+{
+  "directory": "/home/shane/repos/Elementrix/build",
+  "command": "/usr/bin/g++   -I/home/shane/repos/Elementrix/include  -g   -std=gnu++17 -o CMakeFiles/Elementrix.dir/src/main.cpp.o -c /home/shane/repos/Elementrix/src/main.cpp",
+  "file": "/home/shane/repos/Elementrix/src/main.cpp"
+}
+]
