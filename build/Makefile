@@ -123,32 +123,59 @@ Elementrix/fast:
 	$(MAKE) -f CMakeFiles/Elementrix.dir/build.make CMakeFiles/Elementrix.dir/build
 .PHONY : Elementrix/fast
 
-src/game.o: src/game.cpp.o
+src/Game.o: src/Game.cpp.o
 
-.PHONY : src/game.o
+.PHONY : src/Game.o
 
 # target to build an object file
-src/game.cpp.o:
-	$(MAKE) -f CMakeFiles/Elementrix.dir/build.make CMakeFiles/Elementrix.dir/src/game.cpp.o
-.PHONY : src/game.cpp.o
+src/Game.cpp.o:
+	$(MAKE) -f CMakeFiles/Elementrix.dir/build.make CMakeFiles/Elementrix.dir/src/Game.cpp.o
+.PHONY : src/Game.cpp.o
 
-src/game.i: src/game.cpp.i
+src/Game.i: src/Game.cpp.i
 
-.PHONY : src/game.i
+.PHONY : src/Game.i
 
 # target to preprocess a source file
-src/game.cpp.i:
-	$(MAKE) -f CMakeFiles/Elementrix.dir/build.make CMakeFiles/Elementrix.dir/src/game.cpp.i
-.PHONY : src/game.cpp.i
+src/Game.cpp.i:
+	$(MAKE) -f CMakeFiles/Elementrix.dir/build.make CMakeFiles/Elementrix.dir/src/Game.cpp.i
+.PHONY : src/Game.cpp.i
 
-src/game.s: src/game.cpp.s
+src/Game.s: src/Game.cpp.s
 
-.PHONY : src/game.s
+.PHONY : src/Game.s
 
 # target to generate assembly for a file
-src/game.cpp.s:
-	$(MAKE) -f CMakeFiles/Elementrix.dir/build.make CMakeFiles/Elementrix.dir/src/game.cpp.s
-.PHONY : src/game.cpp.s
+src/Game.cpp.s:
+	$(MAKE) -f CMakeFiles/Elementrix.dir/build.make CMakeFiles/Elementrix.dir/src/Game.cpp.s
+.PHONY : src/Game.cpp.s
+
+src/Player.o: src/Player.cpp.o
+
+.PHONY : src/Player.o
+
+# target to build an object file
+src/Player.cpp.o:
+	$(MAKE) -f CMakeFiles/Elementrix.dir/build.make CMakeFiles/Elementrix.dir/src/Player.cpp.o
+.PHONY : src/Player.cpp.o
+
+src/Player.i: src/Player.cpp.i
+
+.PHONY : src/Player.i
+
+# target to preprocess a source file
+src/Player.cpp.i:
+	$(MAKE) -f CMakeFiles/Elementrix.dir/build.make CMakeFiles/Elementrix.dir/src/Player.cpp.i
+.PHONY : src/Player.cpp.i
+
+src/Player.s: src/Player.cpp.s
+
+.PHONY : src/Player.s
+
+# target to generate assembly for a file
+src/Player.cpp.s:
+	$(MAKE) -f CMakeFiles/Elementrix.dir/build.make CMakeFiles/Elementrix.dir/src/Player.cpp.s
+.PHONY : src/Player.cpp.s
 
 src/main.o: src/main.cpp.o
 
@@ -186,9 +213,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Elementrix"
-	@echo "... src/game.o"
-	@echo "... src/game.i"
-	@echo "... src/game.s"
+	@echo "... src/Game.o"
+	@echo "... src/Game.i"
+	@echo "... src/Game.s"
+	@echo "... src/Player.o"
+	@echo "... src/Player.i"
+	@echo "... src/Player.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

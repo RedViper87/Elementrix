@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Elementrix.dir/src/game.cpp.o"
+  "CMakeFiles/Elementrix.dir/src/Game.cpp.o"
+  "CMakeFiles/Elementrix.dir/src/Player.cpp.o"
   "CMakeFiles/Elementrix.dir/src/main.cpp.o"
   "Elementrix"
   "Elementrix.pdb"
